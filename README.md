@@ -81,9 +81,18 @@ CRUD merupakan akronim dari Create, Read, Update, dan Delete. Operasi CRUD adala
 ![Screenshot (485)](https://user-images.githubusercontent.com/71475762/121610727-d4d0a400-ca80-11eb-8b00-18162b3acade.png)
 
 -Halaman daftar
+![image](https://user-images.githubusercontent.com/71475762/121611484-8a502700-ca82-11eb-9a2f-d87c2a01ade5.png)
+
 
 -Halaman input soal
 ![Screenshot (486)](https://user-images.githubusercontent.com/71475762/121610817-13fef500-ca81-11eb-8e72-fee37e5de6f5.png)
+
+-Halaman course
+![image](https://user-images.githubusercontent.com/71475762/121611219-fa11e200-ca81-11eb-8d34-9bc34c30c799.png)
+
+-Halaman hasil ujian
+![image](https://user-images.githubusercontent.com/71475762/121611289-1ca3fb00-ca82-11eb-9881-e02c7ecb9d45.png)
+
 
 -Halaman lihat soal
 ![image](https://user-images.githubusercontent.com/71475762/121610849-2416d480-ca81-11eb-93b7-7e2855470008.png)
