@@ -57,7 +57,8 @@ Arsitektur website mengacu pada desain sebuah website,atau dimana komponen yang 
 
 - Arsitektur Diagram
   * ![RPL3-AD](https://user-images.githubusercontent.com/78951674/121549257-e6418e00-ca37-11eb-8385-91ec1767b7bf.png)
-Agar dapat merealisasikan hal-hal tersebut, pengembangan website Maple akan menggunakan framework Bootsrap dengan basis bahasa pemrograman CSS untuk mengoptimalkan sisi front-end dari website Maple. Kemudian website Maple dibangun menggunakan bahasa pemrograman HTML,CSS dan PHP dan basis data MySQL yang dibantu dengan penggunaan XAMPP sebagai server web lokal dengan URL localhost. Kebutuhan untuk menjalankan sistem ini adalah sebuah komputer yang dilengkapi dengan server  web local dan web browser.
+
+  * Agar dapat merealisasikan hal-hal tersebut, pengembangan website Maple akan menggunakan framework Bootsrap dengan basis bahasa pemrograman CSS untuk mengoptimalkan sisi front-end dari website Maple. Kemudian website Maple dibangun menggunakan bahasa pemrograman HTML,CSS dan PHP dan basis data MySQL yang dibantu dengan penggunaan XAMPP sebagai server web lokal dengan URL localhost. Kebutuhan untuk menjalankan sistem ini adalah sebuah komputer yang dilengkapi dengan server  web local dan web browser.
 
 ## Fitur Utama Maple
 Berdasarkan rancangan pada arsitektur website Maple dan tujuan awal dari website Maple, maka fitur utama yang kami kembangkan dari Website Maple adalah menyediakan Tes TOEFL secara cepat dan ringkas dimana hasil dari tes ini dapat dijadikan acuan oleh pengguna terkait sejauh apa pemahaman dan kemampuan pengguna dalam belajar Bahasa Inggris. 
