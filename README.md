@@ -71,7 +71,7 @@ CRUD merupakan akronim dari Create, Read, Update, dan Delete. Operasi CRUD adala
 | ID Pengujian |   Deskripsi Pengujian   |   Prosedur Pengujian   |   Data Masukan   |     Luaran yang Diharapkan     |
 |--------------|-------------------------|------------------------|------------------|--------------------------------|
 |      A1      |                                              Create Account                                          |
-|              | Pengguna dapat membuat  | Positive test case     | Username, email, | Pengguna berhasil memiliki akun|
+|              | Pengguna dapat membuat  | Positive test case     | Username,        | Pengguna berhasil memiliki akun|
 |              | akun di Maple           |                        | dan password     | website Maple                  |
 |              | Pengguna gagal membuat  | Negative test case     | Data masukan     | Pengguna gagal memiliki akun   |
 |              | akun di Maple           |                        | tidak sesuai     | website Maple                  |
