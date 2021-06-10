@@ -50,7 +50,7 @@
 - Class diagram
    * ![RPL5-CLASS DIAGRAM]()
 - Entity relationship diagram
-   * ![RPL3-ERD1](https://user-images.githubusercontent.com/78951674/121545065-60701380-ca34-11eb-85bb-7e533c74f225.png)
+   * ![RPL3-ERD1](https://user-images.githubusercontent.com/78951674/121554117-10954a80-ca3c-11eb-88db-107c6621b50a.png)
 
 ## Arsitektur Website Maple
 Arsitektur website mengacu pada desain sebuah website,atau dimana komponen yang membentuk suatu system ditempatkan dan bagaimana mereka berkomunikasi. Tujuan arsitektur dalam pengembangan website adalah untuk mendefinisikan jenis-jenis fungsi utama dan data yang dibutuhkan untuk mengelola serta mendukung fungsi bisnis. Pada arsitektur aplikasi maupun website, harus ditentukan dan dituliskan secara lengkap kebutuhan yang penting untuk memproses data dan mendukung bisnis. Pada proses pengumpulan kebutuhan sistem dan data, data diperoleh dari admin dan pengguna. Sehingga bisa disebutkan kebutuhan tersebut meliputi: 1)pendaftaran, 2)pembelajaran, 3)penilaian, 4)data pengguna, 5)data penilaian(meliputi pertanyaan dan jawaban soal TOEFL yang nantinya diajukan kepada pengguna melalui teks reading, audio), 6)data jawaban dari pengguna, 7)data purchase pengguna. Identifikasi output dari website Maple ini adalah skor TOEFL yang diperoleh dari input jawaban dari pengguna, pertanyaan TOEFL, keterangan soal, serta materi pembelajaran TOEFL. 
