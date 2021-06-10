@@ -10,7 +10,7 @@
     - Indah Puspita (G64170035)
    
 - Nama anggota kelompok dan masing-masing role
-  * Maya Ayu  (G24180002) sebagai Front End
+  * Maya Ayu  (G24180002) sebagai Front End dan Back End
   * Dyah Puspitasari Asih (G24180066) sebagai Back End
   * Septi Chairini Utami (G24180032) sebagai UI/UX Designer
   
@@ -46,9 +46,9 @@
 - Use Case Diagram
    * ![RPL3-usecase](https://user-images.githubusercontent.com/78951674/121545289-97462980-ca34-11eb-8bb7-3fe5ce8e8bf2.png)
 - Activity diagram
-   * ![RPL5-ACTIVITY DIAGRAM]()
+   * ![RPL3-ACTIVITY DIAGRAM](https://user-images.githubusercontent.com/78951674/121556117-cd3bdb80-ca3d-11eb-8d2b-d9a562e4682c.jpg)
 - Class diagram
-   * ![RPL5-CLASS DIAGRAM]()
+   * ![RPL3-CLASS DIAGRAM](https://user-images.githubusercontent.com/78951674/121556808-6539c500-ca3e-11eb-90d8-21ade57f2908.png)
 - Entity relationship diagram
    * ![RPL3-ERD1](https://user-images.githubusercontent.com/78951674/121554117-10954a80-ca3c-11eb-88db-107c6621b50a.png)
 
