@@ -10,9 +10,9 @@
     - Indah Puspita (G64170035)
    
 - Nama anggota kelompok dan masing-masing role
-  * Nurul Izzati Yulian (G24180021) sebagai Front End
-  * Ahdini Zahra (G24180060) sebagai Back End
-  * Afiyah Hayatunisa (G24180071) sebagai UI/UX Designer
+  * Maya Ayu  (G24180002) sebagai Front End
+  * Dyah Puspitasari Asih (G24180066) sebagai Back End
+  * Septi Chairini Utami (G24180032) sebagai UI/UX Designer
   
 ## Brief Introduction
    Maple merupakan sebuah aplikasi berbasis website yang berfungsi sebagai sarana pembelajaran Bahasa Inggris khususnya yang berkaitan dengan persiapan ujian atau tes TOEFL. Sistem pembelajaran yang terdapat pada Maple akan dibuat menjadi beberapa stage atau level supaya mempermudah dalam penguasaan materi. History pembelajaran pengguna selanjutnya akan dipetakan untuk menentukan kategori kelas pengguna misalnya beginner, intermediate, dan advance. Materi yang diberikan kepada pengguna dikemas dengan cara yang berbeda-beda supaya tidak monoton dan membosankan, seperti output berupa radio, video dan reading teks. 
