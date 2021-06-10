@@ -65,3 +65,40 @@ Berdasarkan rancangan pada arsitektur website Maple dan tujuan awal dari website
 
 ## Fungsi CRUD pada Website Maple
 CRUD merupakan akronim dari Create, Read, Update, dan Delete. Operasi CRUD adalah manipulasi data paling mendasar dalam database. Dalam website Maple, beberapa fungsi dapat dilakukan oleh admin dan pengguna. Pengguna (user) dapat mendaftarkan diri dan membuat akun sehingga dapat log in ke dalam sistem (CREATE), mengakses soal dan materi dan melihat skor hasil TOEFL (READ), mengubah password (UPDATE),  hingga melakukan purchase pembelajaran TOEFL yang lebih intensif. Sedangkan admin memiliki hak akses untuk mengelola soal-soal dalam sistem, mengelola akun pengguna (CREATE and UPDATE), melihat daftar user dan skor TOEFL (READ), mengelola purchasing yang dilakukan oleh user (UPDATE), menghapus konten dan akun pengguna (DELETE).
+
+##Testing
+|--------------|-------------------------|------------------------|------------------|--------------------------------|
+| ID Pengujian |   Deskripsi Pengujian   |   Prosedur Pengujian   |   Data Masukan   |     Luaran yang Diharapkan     |
+|--------------|-------------------------|------------------------|------------------|--------------------------------|
+|      A1      |                                              Create Account                                          |
+|              | Pengguna dapat membuat  | Positive test case     | Username, email, | Pengguna berhasil memiliki akun|
+|              | akun di Maple           |                        | dan password     | website Maple                  |
+|              | Pengguna gagal membuat  | Negative test case     | Data masukan     | Pengguna gagal memiliki akun   |
+|              | akun di Maple           |                        | tidak sesuai     | website Maple                  |
+|--------------|-------------------------|------------------------|------------------|--------------------------------|
+|      A2      |                                                  Login                                               |
+|              | Pengguna dapat masuk ke | Positive test case     | Username, email, | Pengguna berhasil masuk ke     |
+|              | website Maple           |                        | dan password yang| beranda website Maple          |
+|              |                         |                        | sudah terdaftar  |                                |
+|              | Pengguna tidak dapat    | Negative test case     | Masih ada masukan| Pengguna tidak berhasil masuk  |
+|              | masuk ke website Maple  |                        | yang salah       | beranda dan diminta mengulang  |
+|              |                         |                        |                  | masukan                        |
+|--------------|-------------------------|------------------------|------------------|--------------------------------|
+|      A3      |                                                 Testing                                              |
+|              | Pengguna dapat          | Positive test case     | Mengklik jawaban | Pengguna berhasil menyelesaikan|
+|              | mengerjakan soal        |                        | yang dianggap    | soal dengan baik               |
+|              | yang disajikan          |                        | benar            |                                |
+|              | Pengguna tidak dapat    | Negative test case     | Tidak ada masukan| Halaman soal tidak muncul      |
+|              | mengerjakan soal        |                        |                  | dan diminta login terlebih     |
+|              | karena tidak login      |                        |                  | dulu                           |    
+|--------------|-------------------------|------------------------|------------------|--------------------------------|
+|      A4      |                                                Lihat Nilai                                           |
+|              | Pengguna dapat melihat  | Positive test case     | Jawaban soal     | Pengguna dapat melihat nilai   |
+|              | nilainya                |                        | lengkap terjawab | hasil dari mengerjakan soal    |
+|              | Pengguna tidak dapat    | Negative test case     | Jawaban tidak    | Nilai tidak ditampilkan        |
+|              | melihat nilainya        |                        | lengkap          |                                |
+|--------------|-------------------------|------------------------|------------------|--------------------------------|
+
+##Saran Untuk Pengembangan
+Maple merupakan website yang cukup kompleks sehingga dibutuhkan waktu yang cukup lama untuk dapat menyelesaikannya. Ide dan konsep dari sistem ini seharusnya dapat dimatangkan dari jauh-jauh hari supaya persiapan pengembangan dapat maksimal. Fokus utama yang harus diperhatikan terlebih dulu adalah untuk fungsi-fungsi utamanya. Jangan terlalu banyak fungsi supaya fungsi utama dapat maksimal. Koordinasi yang kuat serta manajemen waktu yang baik sangat diperlukan untuk mengerjakan pengembangan website ini karena melihat dari kemampuan dan penguasaan materi pengembang yang berbeda-beda. 
+
