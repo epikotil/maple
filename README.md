@@ -1,7 +1,7 @@
 # Laporan Akhir Project - Maple
 
 
-  * Nama sistem: RASA (Reservasi Restoran)
+  * Nama sistem: Maple 
   * Paralel: 3
   * Kelompok: 5
   
