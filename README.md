@@ -42,7 +42,15 @@
   * Tech Stack
     - Version Control dan Collaboration Platform : Github, Discord, Trello
     - Teknologi : CSS, HTML, Javascript, dan PHP
-
+## Hasil dan Pembahasan
+- Use Case Diagram
+   * ![RPL3-usecase](https://user-images.githubusercontent.com/78951674/121545289-97462980-ca34-11eb-8bb7-3fe5ce8e8bf2.png)
+- Activity diagram
+   * ![RPL5-ACTIVITY DIAGRAM]()
+- Class diagram
+   * ![RPL5-CLASS DIAGRAM]()
+- Entity relationship diagram
+   * ![RPL3-ERD1](https://user-images.githubusercontent.com/78951674/121545065-60701380-ca34-11eb-85bb-7e533c74f225.png)
 
 ## Arsitektur Website Maple
 Arsitektur website mengacu pada desain sebuah website,atau dimana komponen yang membentuk suatu system ditempatkan dan bagaimana mereka berkomunikasi. Tujuan arsitektur dalam pengembangan website adalah untuk mendefinisikan jenis-jenis fungsi utama dan data yang dibutuhkan untuk mengelola serta mendukung fungsi bisnis. Pada arsitektur aplikasi maupun website, harus ditentukan dan dituliskan secara lengkap kebutuhan yang penting untuk memproses data dan mendukung bisnis. Pada proses pengumpulan kebutuhan sistem dan data, data diperoleh dari admin dan pengguna. Sehingga bisa disebutkan kebutuhan tersebut meliputi: 1)pendaftaran, 2)pembelajaran, 3)penilaian, 4)data pengguna, 5)data penilaian(meliputi pertanyaan dan jawaban soal TOEFL yang nantinya diajukan kepada pengguna melalui teks reading, audio), 6)data jawaban dari pengguna, 7)data purchase pengguna. Identifikasi output dari website Maple ini adalah skor TOEFL yang diperoleh dari input jawaban dari pengguna, pertanyaan TOEFL, keterangan soal, serta materi pembelajaran TOEFL. 
@@ -54,5 +62,3 @@ Berdasarkan rancangan pada arsitektur website Maple dan tujuan awal dari website
 
 ## Fungsi CRUD pada Website Maple
 CRUD merupakan akronim dari Create, Read, Update, dan Delete. Operasi CRUD adalah manipulasi data paling mendasar dalam database. Dalam website Maple, beberapa fungsi dapat dilakukan oleh admin dan pengguna. Pengguna (user) dapat mendaftarkan diri dan membuat akun sehingga dapat log in ke dalam sistem, mengakses soal dan materi, mengubah password, melihat skor hasil TOEFL hingga melakukan purchase pembelajaran TOEFL yang lebih intensif. Sedangkan admin memiliki hak akses untuk mengelola soal-soal dalam sistem, mengelola akun pengguna, melihat daftar user dan skor TOEFL, mengelola purchasing yang dilakukan oleh user, menghapus konten dan akun pengguna. Dalam realisasi fungsi, dilakukan penjabaran entitas yang digunakan dalam pengembangan basis data website. Setelah menentukan entitas yang terlibat dalam tiap fungsi dan proses sistem, maka ditentukan atribut dari tiap entitas tersebut. Tabel entitas dan atribut terdapat pada tabel berikut: 
-
-![](https://photos.app.goo.gl/7zVeDqQi8P63RgPN9)
