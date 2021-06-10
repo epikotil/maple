@@ -71,6 +71,8 @@ Berdasarkan rancangan pada arsitektur website Maple dan tujuan awal dari website
 ## Fungsi CRUD pada Website Maple
 CRUD merupakan akronim dari Create, Read, Update, dan Delete. Operasi CRUD adalah manipulasi data paling mendasar dalam database. Dalam website Maple, beberapa fungsi dapat dilakukan oleh admin dan pengguna. Pengguna (user) dapat mendaftarkan diri dan membuat akun sehingga dapat log in ke dalam sistem (CREATE), mengakses soal dan materi dan melihat skor hasil TOEFL (READ), mengubah password (UPDATE),  hingga melakukan purchase pembelajaran TOEFL yang lebih intensif. Sedangkan admin memiliki hak akses untuk mengelola soal-soal dalam sistem, mengelola akun pengguna (CREATE and UPDATE), melihat daftar user dan skor TOEFL (READ), mengelola purchasing yang dilakukan oleh user (UPDATE), menghapus konten dan akun pengguna (DELETE).
 
+## Screenshot sistem
+
 ## Testing
 
 | ID Pengujian |   Deskripsi Pengujian   |   Prosedur Pengujian   |   Data Masukan   |     Luaran yang Diharapkan     |
