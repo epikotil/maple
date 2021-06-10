@@ -1,16 +1,48 @@
-# Maple
+# Laporan Akhir Project - Maple
 
-## Latar Belakang 
-   Bahasa Inggris merupakan salah satu bahasa yang penting dikuasai pada saat ini. Kemampuan bahasa Inggris ini mulai diperhitungkan dalam dunia pendidikan maupun dunia kerja. Kemampuan bahasa Inggris ini dapat diukur melalui tes Bahasa Inggris. Salah satu contoh tes kemampuan bahasa Inggris adalah TOEFL (Test of English as a Foreign Language). TOEFL adalah suatu tes yang digunakan untuk mengukur kemampuan berbahasa Inggris. Tes TOEFL ini ditujukan pada orang yang menggunakan Bahasa Inggris sebagai bahasa keduanya (nonnative). TOEFL terbagi menjadi 3 jenis, computer based test disingkat CBT, internet based test disingkat iBT, dan paper based test disingkat PBT. Tes TOEFL akan mengukur kemampuan listening, structure, dan reading.
+
+  * Nama sistem: RASA (Reservasi Restoran)
+  * Paralel: 3
+  * Kelompok: 5
+  
+  * Nama Asisten Praktikum:
+    - Qorry Atul Chairunnisa (G64170014)
+    - Indah Puspita (G64170035)
    
-   Persiapan untuk melakukan TOEFL penting dilakukan untuk memaksimalkan hasil yang didapatkan nantinya. Kondisi pada saat ini yang tidak memungkinkan untuk berkumpul dan bertatap muka secara langsung diakibatkan karena adanya Covid-19 mengharuskan semua kalangan masyarakat untuk beradaptasi dengan kegiatan online. Oleh karena itu persiapan secara online sangat dibutuhkan saat ini.  Maple merupakan aplikasi belajar Bahasa Inggris dan persiapan tes TOEFL berbasis web. Target utama dari Maple adalah pelajar dan mahasiswa. Melalui Maple diharapkan user dapat mempersiapkan diri untuk melakukan TOEFL. 
-
-Dibuatnya Website Maple bertujuan untuk memberikan akses kemudahan untuk belajar Bahasa Inggris, membantu dalam persiapan ujian(tes) TOEFL, serta meningkatkan kemampuan berbahasa Inggris. 
-
+- Nama anggota kelompok dan masing-masing role
+  * Nurul Izzati Yulian (G24180021) sebagai Front End
+  * Ahdini Zahra (G24180060) sebagai Back End
+  * Afiyah Hayatunisa (G24180071) sebagai UI/UX Designer
+  
 ## Brief Introduction
    Maple merupakan sebuah aplikasi berbasis website yang berfungsi sebagai sarana pembelajaran Bahasa Inggris khususnya yang berkaitan dengan persiapan ujian atau tes TOEFL. Sistem pembelajaran yang terdapat pada Maple akan dibuat menjadi beberapa stage atau level supaya mempermudah dalam penguasaan materi. History pembelajaran pengguna selanjutnya akan dipetakan untuk menentukan kategori kelas pengguna misalnya beginner, intermediate, dan advance. Materi yang diberikan kepada pengguna dikemas dengan cara yang berbeda-beda supaya tidak monoton dan membosankan, seperti output berupa radio, video dan reading teks. 
   
   Maple dapat diakses dengan mendaftar akun terlebih dahulu, yang hanya membutuhkan username, email dan password. Setelah dibuat akun, pengguna dapat login dan melakukan tes. Setiap level berisi kosakata-kosakata baru dan audio learning baru. Pada bagian test, user akan mendapatkan soal sesuai dengan level stages masing-masing dalam bentuk menyerupai tes TOEFL yang sesungguhnya. Disertai dengan limit waktu, test listening, reading, listening, speaking and writing questions. Setelah dilakukan tes, akan muncul hasil pembelajaran berupa achievement nilai TOEFL. Terdapat pula fitur review soal yang diujikan dan materi yang telah dipelajari. 
+
+## User Analysis
+### User Story
+   * Sebagai seorang mahasiswa tingkat akhir, user membutuhkan nilai toefl untuk persyaratan kelulusan dan mendaftar pekerjaan. 
+   * Akan tetapi user masih belum menguasai bahasa Inggris, oleh karena itu user membutuhkan program persiapan tes TOEFL. 
+   * Karena keterbatasan waktu, user menginginkan adanya tes cepat untuk mengetahui sejauh mana level bahasa Inggrisnya. Oleh karena itu dia membutuhkan uji coba tes yang            singkat namun dapat mewakili kemampuan bahasanya.
+   * Uji coba tes yang user butuhkan adalah reading, listening, dan writing
+   * Nilai yang diperoleh user dari hasil tes sebelumnya akan menjadi acuan user untuk mengetahui level TOEFLnya dan mengambil kategori kelas lanjutan yang cocok
+   * User dapat memutuskan untuk purchase kelas persiapan tes toefl mengacu nilai TOEFL yang telah dilakukan 
+   
+## Spesifikasi teknis lingkungan pengembangan
+  * Software
+    - Operating System: Windows 10
+    - Text Editor: Visual Studio Code
+    - Framework: Bootstrap 4
+    - Database: MySQL
+    - Server: XAMPP
+  * Hardware
+    - Processor:  Intel Celeron N4000 CPU 1.10 GHz; Intel(R) Core(TM) i3-1005G1 CPU @ 3.4GHz
+    - Memory: 8,00 GB
+    - Graphics Card:  Intel UHD G1 Graphics
+  * Tech Stack
+    - Version Control dan Collaboration Platform : Github, Discord, Trello
+    - Teknologi : CSS, HTML, Javascript, dan PHP
+
 
 ## Arsitektur Website Maple
 Arsitektur website mengacu pada desain sebuah website,atau dimana komponen yang membentuk suatu system ditempatkan dan bagaimana mereka berkomunikasi. Tujuan arsitektur dalam pengembangan website adalah untuk mendefinisikan jenis-jenis fungsi utama dan data yang dibutuhkan untuk mengelola serta mendukung fungsi bisnis. Pada arsitektur aplikasi maupun website, harus ditentukan dan dituliskan secara lengkap kebutuhan yang penting untuk memproses data dan mendukung bisnis. Pada proses pengumpulan kebutuhan sistem dan data, data diperoleh dari admin dan pengguna. Sehingga bisa disebutkan kebutuhan tersebut meliputi: 1)pendaftaran, 2)pembelajaran, 3)penilaian, 4)data pengguna, 5)data penilaian(meliputi pertanyaan dan jawaban soal TOEFL yang nantinya diajukan kepada pengguna melalui teks reading, audio), 6)data jawaban dari pengguna, 7)data purchase pengguna. Identifikasi output dari website Maple ini adalah skor TOEFL yang diperoleh dari input jawaban dari pengguna, pertanyaan TOEFL, keterangan soal, serta materi pembelajaran TOEFL. 
