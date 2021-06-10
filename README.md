@@ -66,7 +66,7 @@ Berdasarkan rancangan pada arsitektur website Maple dan tujuan awal dari website
 ## Fungsi CRUD pada Website Maple
 CRUD merupakan akronim dari Create, Read, Update, dan Delete. Operasi CRUD adalah manipulasi data paling mendasar dalam database. Dalam website Maple, beberapa fungsi dapat dilakukan oleh admin dan pengguna. Pengguna (user) dapat mendaftarkan diri dan membuat akun sehingga dapat log in ke dalam sistem (CREATE), mengakses soal dan materi dan melihat skor hasil TOEFL (READ), mengubah password (UPDATE),  hingga melakukan purchase pembelajaran TOEFL yang lebih intensif. Sedangkan admin memiliki hak akses untuk mengelola soal-soal dalam sistem, mengelola akun pengguna (CREATE and UPDATE), melihat daftar user dan skor TOEFL (READ), mengelola purchasing yang dilakukan oleh user (UPDATE), menghapus konten dan akun pengguna (DELETE).
 
-##Testing
+## Testing
 
 | ID Pengujian |   Deskripsi Pengujian   |   Prosedur Pengujian   |   Data Masukan   |     Luaran yang Diharapkan     |
 |--------------|-------------------------|------------------------|------------------|--------------------------------|
@@ -95,6 +95,6 @@ CRUD merupakan akronim dari Create, Read, Update, dan Delete. Operasi CRUD adala
 |              | Pengguna tidak dapat    | Negative test case     | Jawaban tidak    | Nilai tidak ditampilkan        |
 |              | melihat nilainya        |                        | lengkap          |                                |
 
-##Saran Untuk Pengembangan
+## Saran Untuk Pengembangan
 Maple merupakan website yang cukup kompleks sehingga dibutuhkan waktu yang cukup lama untuk dapat menyelesaikannya. Ide dan konsep dari sistem ini seharusnya dapat dimatangkan dari jauh-jauh hari supaya persiapan pengembangan dapat maksimal. Fokus utama yang harus diperhatikan terlebih dulu adalah untuk fungsi-fungsi utamanya. Jangan terlalu banyak fungsi supaya fungsi utama dapat maksimal. Koordinasi yang kuat serta manajemen waktu yang baik sangat diperlukan untuk mengerjakan pengembangan website ini karena melihat dari kemampuan dan penguasaan materi pengembang yang berbeda-beda. 
 
