@@ -72,6 +72,37 @@ Berdasarkan rancangan pada arsitektur website Maple dan tujuan awal dari website
 CRUD merupakan akronim dari Create, Read, Update, dan Delete. Operasi CRUD adalah manipulasi data paling mendasar dalam database. Dalam website Maple, beberapa fungsi dapat dilakukan oleh admin dan pengguna. Pengguna (user) dapat mendaftarkan diri dan membuat akun sehingga dapat log in ke dalam sistem (CREATE), mengakses soal dan materi dan melihat skor hasil TOEFL (READ), mengubah password (UPDATE),  hingga melakukan purchase pembelajaran TOEFL yang lebih intensif. Sedangkan admin memiliki hak akses untuk mengelola soal-soal dalam sistem, mengelola akun pengguna (CREATE and UPDATE), melihat daftar user dan skor TOEFL (READ), mengelola purchasing yang dilakukan oleh user (UPDATE), menghapus konten dan akun pengguna (DELETE).
 
 ## Screenshot sistem
+-Halaman utama
+![Screenshot (482)](https://user-images.githubusercontent.com/71475762/121610662-b9659900-ca80-11eb-9ecd-8e152cfeec81.png)
+![Screenshot (483)](https://user-images.githubusercontent.com/71475762/121610667-bbc7f300-ca80-11eb-90bc-40005f91f427.png)
+![Screenshot (484)](https://user-images.githubusercontent.com/71475762/121610669-bc608980-ca80-11eb-84cd-e9261c84f30a.png)
+
+-Halaman login
+![Screenshot (485)](https://user-images.githubusercontent.com/71475762/121610727-d4d0a400-ca80-11eb-8b00-18162b3acade.png)
+
+-Halaman daftar
+
+-Halaman input soal
+![Screenshot (486)](https://user-images.githubusercontent.com/71475762/121610817-13fef500-ca81-11eb-8e72-fee37e5de6f5.png)
+
+-Halaman lihat soal
+![image](https://user-images.githubusercontent.com/71475762/121610849-2416d480-ca81-11eb-93b7-7e2855470008.png)
+
+-Halaman data user
+![image](https://user-images.githubusercontent.com/71475762/121610894-3abd2b80-ca81-11eb-85ed-527973b15524.png)
+
+-Halaman hasil ujian
+![image](https://user-images.githubusercontent.com/71475762/121610927-5294af80-ca81-11eb-87c4-422d255460fa.png)
+
+-Database
+![image](https://user-images.githubusercontent.com/71475762/121611030-896ac580-ca81-11eb-8e2f-c510879358ae.png)
+
+
+
+
+
+
+
 
 ## Testing
 
