@@ -3,7 +3,7 @@
 
   * Nama sistem: Maple 
   * Paralel: 3
-  * Kelompok: 5
+  * Kelompok: 1
   
   * Nama Asisten Praktikum:
     - Qorry Atul Chairunnisa (G64170014)
